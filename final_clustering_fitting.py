@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[41]:
 
 # Necessary imports
 import numpy as np
@@ -13,7 +10,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
 
-# In[42]:
+
 
 
 dataset = pd.read_csv('world_bank_data.csv')
