@@ -44,11 +44,6 @@ def data_frame_extracted(cluster_indi_codes, cluster_years):
 dfs_cluster = data_frame_extracted(cluster_indi_codes, cluster_years)
 
 
-# In[43]:
-
-# In[48]:
-
-
 def clustering(data_frames):
     """
 This function clusters a list of dataframes using k-means algorithm. The function first scales the data using standard scaling technique and then finds the optimum number of clusters using the elbow method. It then fits the k-means algorithm to the dataset and plots the clusters and their centroids on the original data. 
