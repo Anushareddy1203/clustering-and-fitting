@@ -100,9 +100,6 @@ This function clusters a list of dataframes using k-means algorithm. The functio
 clustering(dfs_cluster)
 
 
-# In[52]:
-
-
 def fitting_predictions():
     '''
 This function takes in a dataset and performs curve fitting and linear regression to predict CO2 emissions from liquid fuel consumption (kt) based on Urban population growth in selected countries. It also generates a plot to show the best fitting function, confidence range, and plots to show the predicted values in 10 and 20 years. 
